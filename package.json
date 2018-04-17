@@ -1,0 +1,31 @@
+{
+  "name": "netlify-cms-widget-starter",
+  "description": "A boilerplate for creating Netlify CMS widgets.",
+  "keywords": [
+    "netlify",
+    "netlify-cms",
+    "cms",
+    "widget",
+    "starter",
+    "boilerplate"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/netlify/netlify-cms-widget-starter",
+  "license": "MIT",
+  "main": "dist/main.js",
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2"
+  },
+  "scripts": {
+    "start": "webpack --mode=development -w",
+    "build": "webpack --mode=production"
+  }
+}
