@@ -30,7 +30,7 @@ StringControl.propTypes = {
 };
 
 StringControl.defaultProps = {
-  value: 'test',
+  value: '',
 };
 
 if (typeof window !== 'undefined') {
