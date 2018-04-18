@@ -10,7 +10,7 @@ The starter currently provides a basic string widget, which you can customize, e
 
 Clone or fork the repo, then install dependencies:
 
-```
+```shell
 git clone https://github.com/netlify/netlify-cms-widget-starter.git
 
 npm install
@@ -20,7 +20,7 @@ npm install
 
 To run a copy of Netlify CMS with your widget loaded for development, use the start script:
 
-```
+```shell
 npm start
 ```
 
@@ -34,7 +34,7 @@ You'll want to take a few steps before publishing a production built package to 
 2. For discoverability, ensure that your package name follows the pattern `netlify-cms-widget-<name>`.
 3. Delete this `README.md`, rename `README_TEMPLATE.md` to `README.md`, and update the new file for your specific widget.
 4. Rename the exports in `src/index.js`. For example, if your widget is `netlify-cms-widget-awesome`, you would do:
-  ```
+  ```js
   if (typeof window !== 'undefined') {
     window.AwesomeControl = Control
     window.AwesomePreview = Preview
@@ -44,10 +44,10 @@ You'll want to take a few steps before publishing a production built package to 
   ```
 5. Optional: customize the component and file names in `src`.
 6. Create a production build, which will be output to `dist`:
-  ```
+  ```shell
   npm run build
   ```
 7. Finally, if you're sure things are tested and working, publish:
-  ```
+  ```shell
   npm publish
   ```
