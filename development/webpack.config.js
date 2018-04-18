@@ -25,4 +25,10 @@ module.exports = {
     new HtmlWebpackPlugin(),
   ],
   devtool: 'eval-source-map',
+  serve: {
+    open: {
+      path: '/#/collections/test/entries/test',
+    },
+    logLevel: 'error',
+  },
 }
