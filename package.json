@@ -34,7 +34,7 @@
     "react": "^16.3.2"
   },
   "scripts": {
-    "start": "webpack-serve ./development/webpack.config.js",
+    "start": "webpack-serve ./dev/webpack.config.js",
     "build": "webpack",
     "prepublishOnly": "npm run build"
   }
