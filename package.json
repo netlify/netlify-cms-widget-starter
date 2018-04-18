@@ -31,7 +31,7 @@
     "react": "^16.3.2"
   },
   "scripts": {
-    "start": "webpack-serve ./development/webpack.config.js --open --log-level silent",
-    "build": "webpack --mode=production --module-bind 'js=babel-loader' --module-bind 'jsx=babel-loader' --resolve-extensions .js,.jsx"
+    "start": "webpack-serve ./development/webpack.config.js --open --log-level error",
+    "build": "webpack"
   }
 }

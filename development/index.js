@@ -1,8 +1,7 @@
+import './bootstrap.js'
 import CMS, { init } from 'netlify-cms'
 import 'netlify-cms/dist/cms.css'
-import Widget from '../src'
-
-window.CMS_MANUAL_INIT = true
+import { Control, Preview } from '../src'
 
 window.repoFiles = {
   'test.yml': {
@@ -35,6 +34,6 @@ const config = {
   }],
 }
 
-CMS.registerWidget('test', Widget)
+CMS.registerWidget('test', Control, Preview)
 
 init({ config })
