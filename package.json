@@ -24,6 +24,7 @@
     "css-loader": "^0.28.11",
     "html-webpack-plugin": "^3.2.0",
     "netlify-cms": "^1.5.0",
+    "react": "^16.3.2",
     "source-map-loader": "^0.2.3",
     "style-loader": "^0.20.3",
     "webpack": "^4.6.0",
@@ -31,8 +32,10 @@
     "webpack-serve": "^0.3.1"
   },
   "dependencies": {
-    "prop-types": "^15.6.1",
-    "react": "^16.3.2"
+    "prop-types": "^15.6.1"
+  },
+  "peerDependencies": {
+    "react": "^16",
   },
   "scripts": {
     "start": "webpack-serve --log-level error --open-path '/#/collections/test/entries/test'",
