@@ -36,7 +36,7 @@
   },
   "scripts": {
     "start": "webpack-serve --log-level error --open-path '/#/collections/test/entries/test'",
-    "demo": "webpack --devtool source-map",
+    "demo": "webpack --display errors-only --devtool source-map",
     "build": "cross-env NODE_ENV=production webpack",
     "prepublishOnly": "npm run build"
   }
