@@ -43,11 +43,13 @@ You'll want to take a few steps before publishing a production built package to 
   export { Control as AwesomeControl, Preview as AwesomePreview }
   ```
 5. Optional: customize the component and file names in `src`.
-6. Create a production build, which will be output to `dist`:
+6. Deploy a live demo so developers can play with your widget through a link on your repo. Netlify settings are already in place via `netlify.toml`, just [create a site](https://app.netlify.com/start) from your repo to deploy.
+7. Add the demo link to your readme (the readme template has a placeholder url for the demo link).
+8. Create a production build, which will be output to `dist`:
   ```shell
   npm run build
   ```
-7. Finally, if you're sure things are tested and working, publish:
+9. Finally, if you're sure things are tested and working, publish!
   ```shell
   npm publish
   ```

@@ -1,5 +1,7 @@
 # netlify-cms-widget-<name>
 
+[Check out a demo!](https://your-widget.netlify.com)
+
 Overview of what your widget does.
 
 ## Install
