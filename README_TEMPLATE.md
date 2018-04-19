@@ -1,6 +1,6 @@
 # netlify-cms-widget-<name>
 
-[Check out a demo!](https://your-widget.netlify.com)
+[Check out a demo!](https://replace-with-widget-name.netlify.com/demo)
 
 Overview of what your widget does.
 
