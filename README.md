@@ -2,9 +2,11 @@
 
 A boilerplate for creating Netlify CMS widgets.
 
-Widgets are basically inputs for the Netlify CMS editor interface. It's a React component that receives user input and outputs a serialized value. Those are the only rules - the component can be extremely simple, like a text input, or extremely complicated, like a full blown markdown editor. They can make calls to external services, and generally do anything that JavaScript can do.
+Widgets are inputs for the Netlify CMS editor interface. It's a React component that receives user input and outputs a serialized value. Those are the only rules - the component can be extremely simple, like a text input, or extremely complicated, like a full blown markdown editor. They can make calls to external services, and generally do anything that JavaScript can do.
 
 The starter currently provides a basic string widget, which you can customize, extend, or replace entirely with your own widget.
+
+[Check out the docs](https://www.netlifycms.org/docs/custom-widgets/) for more details.
 
 ### Getting started
 
