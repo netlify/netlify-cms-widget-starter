@@ -1,4 +1,4 @@
-# netlify-cms-widget-<name>
+# netlify-cms-widget-\<name\>
 
 [Check out a demo!](https://replace-with-widget-name.netlify.com/demo)
 
