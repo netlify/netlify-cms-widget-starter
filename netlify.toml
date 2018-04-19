@@ -3,5 +3,5 @@
   command = "yarn demo"
 
 [[redirects]]
-  from = "/#/"
+  from = "/demo"
   to = "/#/collections/test/entries/test"
