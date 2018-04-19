@@ -11,8 +11,8 @@ The starter currently provides a basic string widget, which you can customize, e
 Clone or fork the repo, then install dependencies:
 
 ```shell
-git clone --depth=1 https://github.com/netlify/netlify-cms-widget-starter.git netlify-cms-widget-awesome
-cd netlify-cms-widget-awesome
+git clone --depth=1 https://github.com/netlify/netlify-cms-widget-starter.git netlify-cms-widget-<name>
+cd netlify-cms-widget-<name>
 npm install
 ```
 
