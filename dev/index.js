@@ -6,6 +6,7 @@ import { Control, Preview } from '../src'
 const config = {
   backend: {
     name: 'test-repo',
+    login: false,
   },
   media_folder: 'assets',
   collections: [{
